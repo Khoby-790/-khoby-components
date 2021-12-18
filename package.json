@@ -1,0 +1,32 @@
+{
+  "name": "@khoby-790/components",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/khoby-790"
+  },
+  "version": "0.0.1",
+  "description": "A collection of components for React",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Emmanuel Baidoo",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/react": "^17.0.37",
+    "react": "^17.0.2",
+    "rollup": "^2.61.1",
+    "rollup-plugin-dts": "^4.0.1",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "tslib": "^2.3.1"
+  }
+}
